@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#4f46e5"/>
+  <rect x="60" y="60" width="1080" height="510" rx="24" fill="white"/>
+  <text x="600" y="280" font-family="system-ui, sans-serif" font-size="72" font-weight="bold" fill="#4f46e5" text-anchor="middle">Tutor &</text>
+  <text x="600" y="360" font-family="system-ui, sans-serif" font-size="72" font-weight="bold" fill="#4f46e5" text-anchor="middle">Allied AI Academy</text>
+  <text x="600" y="450" font-family="system-ui, sans-serif" font-size="36" fill="#374151" text-anchor="middle">Master AI tools, build real projects, launch your career</text>
+  <circle cx="150" cy="540" r="30" fill="#4f46e5"/>
+  <circle cx="600" cy="540" r="30" fill="#6366f1"/>
+  <circle cx="1050" cy="540" r="30" fill="#818cf8"/>
+</svg>

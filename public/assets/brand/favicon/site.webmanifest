@@ -1,0 +1,16 @@
+{
+  "name": "Tutor & Allied AI Academy",
+  "short_name": "TA Academy",
+  "description": "Master AI tools, build real projects, launch your career",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "/assets/brand/favicon/favicon-32x32.svg",
+      "sizes": "32x32",
+      "type": "image/svg+xml"
+    }
+  ]
+}

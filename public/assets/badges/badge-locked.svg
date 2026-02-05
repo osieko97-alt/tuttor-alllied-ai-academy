@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <circle cx="60" cy="60" r="56" fill="#f3f4f6" stroke="#9ca3af" stroke-width="4"/>
+  <circle cx="60" cy="60" r="40" fill="#9ca3af"/>
+  <rect x="50" y="55" width="20" height="16" rx="2" fill="white"/>
+  <path d="M55 55V45a5 5 0 019 0" stroke="white" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <text x="60" y="95" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#6b7280" text-anchor="middle">LOCKED</text>
+</svg>

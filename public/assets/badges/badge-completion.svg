@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <circle cx="60" cy="60" r="56" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+  <circle cx="60" cy="60" r="40" fill="#16a34a"/>
+  <path d="M40 60l15 15 25-30" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <text x="60" y="95" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#16a34a" text-anchor="middle">COMPLETED</text>
+</svg>

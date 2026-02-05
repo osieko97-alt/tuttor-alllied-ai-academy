@@ -1,203 +1,175 @@
 <section class="hero">
     <div class="container hero-grid">
-        <div>
-            <p class="eyebrow">Tutor & Allied AI Academy</p>
-            <h1>Deploy a real project in 14 days.</h1>
-            <p class="lead">Learn, build, review, and ship with mentorship, incubation chambers, and verified GitHub evidence.</p>
+        <div class="hero-content">
+            <p class="badge">🚀 Two-Week Deployment Sprint</p>
+            <h1>Build real AI projects. Deploy in 14 days.</h1>
+            <p class="lead">An AI Academy and Incubator for students and young builders. Learn the skills, join teams, ship working projects — not just certificates.</p>
             <div class="hero-actions">
-                <a class="button" href="/register">Start 14-Day Sprint</a>
-                <a class="button ghost" href="/incubation">Explore Incubation</a>
-                <a class="button ghost" href="/ai">AI (Coming Soon)</a>
-            </div>
-            <div class="trust-strip">
-                <span>GitHub Reviews</span>
-                <span>Mentorship</span>
-                <span>Resources</span>
-                <span>Ages 16–25+</span>
-                <span>Real Deployments</span>
+                <a class="button" href="/register">Join the AI Academy</a>
+                <a class="button ghost" href="/courses">Explore Courses</a>
             </div>
         </div>
         <div class="hero-card">
-            <h3>14-Day Sprint Snapshot</h3>
-            <ul>
-                <li><strong>Day 1:</strong> Idea + scope</li>
-                <li><strong>Day 3:</strong> Repo + roadmap</li>
-                <li><strong>Day 7:</strong> MVP + first review</li>
-                <li><strong>Day 10:</strong> Deploy checklist</li>
-                <li><strong>Day 14:</strong> Demo day + certificate</li>
-            </ul>
-            <a class="button ghost" href="/tracks">Pick your track</a>
+            <h3>Your 14-Day Journey</h3>
+            <div class="timeline-mini">
+                <div class="timeline-item">
+                    <span class="day">Day 1–3</span>
+                    <span class="task">Foundations + tools</span>
+                </div>
+                <div class="timeline-item">
+                    <span class="day">Day 4–7</span>
+                    <span class="task">Build your core features</span>
+                </div>
+                <div class="timeline-item">
+                    <span class="day">Day 8–11</span>
+                    <span class="task">Improve, test, collaborate</span>
+                </div>
+                <div class="timeline-item">
+                    <span class="day">Day 12–14</span>
+                    <span class="task">Deploy, review, present</span>
+                </div>
+            </div>
+            <p class="outcome"><strong>Outcome:</strong> A working project + GitHub repo + live deployment.</p>
+            <a class="button ghost" href="/tracks">See all tracks</a>
         </div>
     </div>
 </section>
 
-<section class="section">
+<section class="section values">
+    <div class="container">
+        <div class="grid three">
+            <div class="value-card">
+                <div class="value-icon">⚡</div>
+                <h3>Learn fast</h3>
+                <p>Short, focused lessons designed to get you building immediately.</p>
+            </div>
+            <div class="value-card">
+                <div class="value-icon">🤝</div>
+                <h3>Build together</h3>
+                <p>Join teams, review real code, and work on live projects.</p>
+            </div>
+            <div class="value-card">
+                <div class="value-icon">🚀</div>
+                <h3>Deploy for real</h3>
+                <p>By day 14, you launch an MVP you can show anywhere.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section tracks-section">
     <div class="container">
         <div class="section-head">
-            <h2>Choose your track</h2>
-            <p>Three 14-day paths designed for your current skill level.</p>
+            <h2>Choose your starting point</h2>
+            <p>Three tracks designed for where you are now.</p>
         </div>
         <div class="grid three">
-            <article class="card">
+            <article class="card track-card">
+                <div class="track-badge">Beginner</div>
                 <h3>Coding Green</h3>
-                <p>Beginner-friendly, no-code welcome. Build your first deployed project.</p>
-                <ul>
-                    <li>Day 1: Idea selection</li>
-                    <li>Day 7: MVP launch</li>
-                    <li>Day 14: Live demo</li>
+                <p class="track-desc">For complete beginners. You've never built before — that's fine. We start from zero and guide you step by step.</p>
+                <ul class="track-outcome">
+                    <li><strong>Build:</strong> Simple AI-powered web app</li>
+                    <li><strong>Skills:</strong> HTML, PHP basics, APIs, GitHub</li>
+                    <li><strong>Outcome:</strong> Live deployed MVP</li>
                 </ul>
-                <a class="button" href="/tracks">Start this track</a>
+                <a class="button" href="/tracks">Start from zero</a>
             </article>
-            <article class="card">
-                <h3>Aware-but-Stuck</h3>
-                <p>For builders with some experience who want structured momentum.</p>
-                <ul>
-                    <li>Day 3: Scope + roadmap</li>
-                    <li>Day 8: Review loop</li>
-                    <li>Day 14: Deploy + pitch</li>
+            <article class="card track-card">
+                <div class="track-badge">Intermediate</div>
+                <h3>Aware but Stuck</h3>
+                <p class="track-desc">For learners who know basics. You've watched tutorials, but never shipped. This track helps you finish and deploy.</p>
+                <ul class="track-outcome">
+                    <li><strong>Build:</strong> Full-featured project</li>
+                    <li><strong>Skills:</strong> Advanced patterns, deployment, testing</li>
+                    <li><strong>Outcome:</strong> Polished deployed product</li>
                 </ul>
-                <a class="button" href="/tracks">Start this track</a>
+                <a class="button" href="/tracks">Break the block</a>
             </article>
-            <article class="card">
+            <article class="card track-card">
+                <div class="track-badge">Advanced</div>
                 <h3>Expert</h3>
-                <p>Accelerate advanced projects with mentorship and partner reviews.</p>
-                <ul>
-                    <li>Day 2: Systems design</li>
-                    <li>Day 9: Peer reviews</li>
-                    <li>Day 14: Launch-ready</li>
+                <p class="track-desc">For advanced builders. Move fast, polish ideas, improve architecture, deploy better.</p>
+                <ul class="track-outcome">
+                    <li><strong>Build:</strong> Complex production-ready app</li>
+                    <li><strong>Skills:</strong> Architecture, scaling, optimization</li>
+                    <li><strong>Outcome:</strong> Launch-ready with reviews</li>
                 </ul>
-                <a class="button" href="/tracks">Start this track</a>
+                <a class="button" href="/tracks">Ship faster</a>
             </article>
         </div>
     </div>
 </section>
 
-<section class="section alt">
+<section class="section alt incubation-section">
     <div class="container">
         <div class="section-head">
-            <h2>14-day timeline preview</h2>
-            <p>Understand the sprint arc before you enroll.</p>
+            <h2>Incubation Chambers</h2>
+            <p>Turn ideas into real products.</p>
         </div>
-        <div class="timeline">
-            <div>
-                <h4>Day 1–3</h4>
-                <p>Pick a problem, set outcomes, ship your repo.</p>
+        <div class="incubation-content">
+            <div class="incubation-text">
+                <p>Submit ideas. Join teams. Review code. Improve projects in public.</p>
+                <p>Inspired by open collaboration — built for students.</p>
+                <ul class="incubation-features">
+                    <li>Vote on project ideas</li>
+                    <li>Join as Developer, Designer, or Content</li>
+                    <li>Review and contribute code</li>
+                    <li>Earn verified reviews</li>
+                </ul>
             </div>
-            <div>
-                <h4>Day 4–7</h4>
-                <p>Build the MVP, document, and request your first review.</p>
-            </div>
-            <div>
-                <h4>Day 8–10</h4>
-                <p>Implement reviews, complete deploy checklist, prep demo.</p>
-            </div>
-            <div>
-                <h4>Day 11–14</h4>
-                <p>Launch publicly, pitch to partners, and graduate.</p>
+            <div class="incubation-cta">
+                <a class="button" href="/incubation">View Incubation Chambers</a>
             </div>
         </div>
     </div>
 </section>
 
-<section class="section">
+<section class="section ai-section">
     <div class="container">
         <div class="section-head">
-            <h2>Trusted by builders and mentors</h2>
-            <p>Learn in public with GitHub-first verification and real partner support.</p>
+            <h2>AI Assistant</h2>
+            <p class="coming-soon">Coming soon</p>
         </div>
-        <div class="grid four logo-strip">
-            <div class="logo-card">GitHub reviews</div>
-            <div class="logo-card">Mentorship</div>
-            <div class="logo-card">Resource partners</div>
-            <div class="logo-card">Ages 16–25+</div>
+        <div class="ai-content">
+            <p>Get help when you need it:</p>
+            <ul class="ai-features">
+                <li>📝 Draft ideas</li>
+                <li>💻 Explain code</li>
+                <li>📊 Summarize discussions</li>
+                <li>🧭 Guide your build</li>
+            </ul>
+            <p class="ai-note">You'll always choose: <strong>Use AI</strong> or <strong>Talk to people</strong></p>
+            <a class="button ghost" href="/ai">Learn more</a>
         </div>
     </div>
 </section>
 
-<section class="section">
+<section class="section social-proof">
     <div class="container">
         <div class="section-head">
-            <h2>Trending projects in incubation</h2>
-            <p>Explore builders shipping in public and earning verified reviews.</p>
+            <h2>What builders say</h2>
         </div>
         <div class="grid three">
-            <article class="card">
-                <span class="pill">Trending</span>
-                <h3>PulseBoard</h3>
-                <p>Live KPI dashboards for student founders.</p>
-                <p class="meta">Stage: MVP · Votes: 24</p>
-                <a class="button ghost" href="/incubation">View project</a>
-            </article>
-            <article class="card">
-                <span class="pill">Trending</span>
-                <h3>MentorMatch</h3>
-                <p>AI-assisted mentor scheduling and review loops.</p>
-                <p class="meta">Stage: Prototype · Votes: 18</p>
-                <a class="button ghost" href="/incubation">View project</a>
-            </article>
-            <article class="card">
-                <span class="pill">Trending</span>
-                <h3>DeployLite</h3>
-                <p>One-click deploy checklist for new builders.</p>
-                <p class="meta">Stage: Idea · Votes: 12</p>
-                <a class="button ghost" href="/incubation">View project</a>
-            </article>
-        </div>
-        <div class="section-cta">
-            <a class="button" href="/register">Submit your project (Login required)</a>
+            <blockquote class="testimonial">
+                <p>"Built my first deployed app in two weeks."</p>
+            </blockquote>
+            <blockquote class="testimonial">
+                <p>"Finally understood how real projects work."</p>
+            </blockquote>
+            <blockquote class="testimonial">
+                <p>"Best learning experience I've had so far."</p>
+            </blockquote>
         </div>
     </div>
 </section>
 
-<section class="section alt">
+<section class="section cta-section">
     <div class="container">
-        <div class="section-head">
-            <h2>Upcoming sessions with partners</h2>
-            <p>Learn from verified mentors, partner orgs, and alumni builders.</p>
-        </div>
-        <div class="grid two">
-            <article class="card">
-                <h3>Code Review Clinic</h3>
-                <p>Live review session with partner engineers.</p>
-                <p class="meta">Thu · 4:00 PM GMT · 25 seats</p>
-                <a class="button ghost" href="/partners">Reserve spot</a>
-            </article>
-            <article class="card">
-                <h3>Incubation Demo Day</h3>
-                <p>Pitch your project to mentors and resource partners.</p>
-                <p class="meta">Sat · 2:00 PM GMT · 50 seats</p>
-                <a class="button ghost" href="/partners">View sessions</a>
-            </article>
-        </div>
-    </div>
-</section>
-
-<section class="section">
-    <div class="container">
-        <div class="section-head">
-            <h2>Courses preview</h2>
-            <p>Start learning now. Join to track progress and unlock reviews.</p>
-        </div>
-        <div class="grid four">
-            <article class="card small">
-                <h3>Developers</h3>
-                <p>Build full-stack MVPs with deployment checklists.</p>
-            </article>
-            <article class="card small">
-                <h3>Creators</h3>
-                <p>Launch content products and real-world experiments.</p>
-            </article>
-            <article class="card small">
-                <h3>Real-World AI</h3>
-                <p>Ship AI use cases with verified GitHub proof.</p>
-            </article>
-            <article class="card small">
-                <h3>AI + Crypto</h3>
-                <p>Explore decentralized AI utility with mentorship.</p>
-            </article>
-        </div>
-        <div class="section-cta">
-            <a class="button" href="/courses">Explore courses</a>
+        <div class="cta-content">
+            <h2>Start building today.</h2>
+            <p>No experience required. Just commitment.</p>
+            <a class="button large" href="/register">Join the Academy</a>
         </div>
     </div>
 </section>

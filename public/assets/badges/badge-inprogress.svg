@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <circle cx="60" cy="60" r="56" fill="#fef3c7" stroke="#f59e0b" stroke-width="4"/>
+  <circle cx="60" cy="60" r="40" fill="#f59e0b"/>
+  <path d="M45 60h30M60 45v30" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <text x="60" y="95" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#f59e0b" text-anchor="middle">IN PROGRESS</text>
+</svg>

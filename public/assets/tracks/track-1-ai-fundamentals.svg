@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="225" viewBox="0 0 400 225">
+  <rect width="400" height="225" rx="12" fill="#4f46e5"/>
+  <circle cx="80" cy="112" r="50" fill="white" opacity="0.2"/>
+  <circle cx="320" cy="112" r="50" fill="white" opacity="0.2"/>
+  <rect x="150" y="75" width="100" height="75" rx="8" fill="white"/>
+  <circle cx="200" cy="112" r="30" fill="#4f46e5"/>
+  <path d="M188 112h24M200 100v24" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <text x="200" y="185" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">AI Fundamentals</text>
+</svg>

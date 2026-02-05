@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="225" viewBox="0 0 400 225">
+  <rect width="400" height="225" rx="12" fill="#059669"/>
+  <circle cx="120" cy="112" r="35" fill="white" opacity="0.2"/>
+  <circle cx="200" cy="112" r="35" fill="white" opacity="0.3"/>
+  <circle cx="280" cy="112" r="35" fill="white" opacity="0.2"/>
+  <rect x="155" y="112" width="90" height="6" rx="3" fill="white"/>
+  <rect x="138" y="107" width="6" height="16" rx="2" fill="white"/>
+  <rect x="256" y="107" width="6" height="16" rx="2" fill="white"/>
+  <text x="200" y="185" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">AI Automation</text>
+</svg>
