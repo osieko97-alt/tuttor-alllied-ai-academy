@@ -1,0 +1,370 @@
+:root {
+    color-scheme: light;
+    --bg: #f6f7fb;
+    --text: #0f172a;
+    --muted: #5b6472;
+    --brand: #4f46e5;
+    --brand-dark: #3730a3;
+    --card: #ffffff;
+    --border: #e2e8f0;
+    --shadow: 0 18px 48px rgba(15, 23, 42, 0.12);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: min(1200px, 92%);
+    margin: 0 auto;
+}
+
+.site-header {
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 1.1rem 0;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.05rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    color: var(--muted);
+    font-weight: 500;
+}
+
+.badge-link {
+    position: relative;
+}
+
+.badge-link::after {
+    content: "Soon";
+    font-size: 0.6rem;
+    padding: 0.1rem 0.3rem;
+    margin-left: 0.3rem;
+    background: #fde68a;
+    color: #92400e;
+    border-radius: 999px;
+}
+
+.nav-cta {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--brand);
+    color: #fff;
+    padding: 0.65rem 1.25rem;
+    border-radius: 999px;
+    border: 1px solid transparent;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.button:hover {
+    background: var(--brand-dark);
+}
+
+.button.ghost {
+    background: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+
+.hero {
+    padding: 5rem 0 3rem;
+    background: radial-gradient(circle at top, #eef2ff 0%, #f8fafc 55%);
+}
+
+.hero-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    align-items: center;
+}
+
+.eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 0.75rem;
+    color: var(--muted);
+}
+
+.lead {
+    font-size: 1.1rem;
+    color: var(--muted);
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 1.5rem 0;
+}
+
+.hero-card {
+    background: var(--card);
+    padding: 2rem;
+    border-radius: 24px;
+    box-shadow: var(--shadow);
+}
+
+.hero-card ul {
+    padding-left: 1rem;
+    color: var(--muted);
+}
+
+.trust-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    color: var(--muted);
+    font-weight: 500;
+}
+
+.section {
+    padding: 4rem 0;
+}
+
+.section.alt {
+    background: #eef2ff;
+}
+
+.section-head {
+    margin-bottom: 2rem;
+}
+
+.section-cta {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.grid.two {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.grid.three {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.grid.four {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.logo-strip {
+    align-items: center;
+}
+
+.logo-card {
+    background: #fff;
+    border: 1px dashed var(--border);
+    border-radius: 16px;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 600;
+    color: var(--muted);
+}
+
+.card {
+    background: var(--card);
+    border-radius: 20px;
+    padding: 1.75rem;
+    border: 1px solid var(--border);
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+.card.small {
+    padding: 1.25rem;
+}
+
+.card ul {
+    padding-left: 1.1rem;
+    color: var(--muted);
+}
+
+.card .meta {
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
+.pill {
+    display: inline-flex;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    background: #e0e7ff;
+    color: #3730a3;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.timeline {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+}
+
+.timeline div {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 16px;
+    border: 1px solid var(--border);
+}
+
+.page-hero {
+    padding: 3rem 0 2rem;
+    background: #fff;
+    border-bottom: 1px solid var(--border);
+}
+
+.filters {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    max-width: 220px;
+    padding: 0.6rem 0.75rem;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    font-size: 0.95rem;
+}
+
+textarea {
+    max-width: none;
+}
+
+.stacked label {
+    display: block;
+    margin-bottom: 1rem;
+    color: var(--muted);
+}
+
+.stacked input,
+.stacked textarea {
+    max-width: none;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.steps {
+    background: #fff;
+    padding: 1.5rem 2rem;
+    border-radius: 16px;
+    border: 1px solid var(--border);
+    color: var(--muted);
+}
+
+.prose h2 {
+    margin-top: 2rem;
+}
+
+.site-footer {
+    margin-top: auto;
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 3rem 0 2rem;
+}
+
+.footer-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.site-footer a {
+    color: #e2e8f0;
+}
+
+.footer-actions {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.newsletter {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(226, 232, 240, 0.2);
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: #cbd5f5;
+}
+
+@media (max-width: 900px) {
+    .nav-links {
+        display: none;
+    }
+
+    .nav-wrap {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-cta {
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
